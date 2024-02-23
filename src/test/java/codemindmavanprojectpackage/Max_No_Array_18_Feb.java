@@ -73,8 +73,6 @@ public class Max_No_Array_18_Feb {
     				}
     			}
     			
-    			System.out.println("Minmum value in array :"+ min);
-    			
+    			System.out.println("Minmum value in array :"+ min);    			
 	}
-
 }
