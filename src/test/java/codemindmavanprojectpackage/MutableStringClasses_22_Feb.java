@@ -12,7 +12,7 @@ public class MutableStringClasses_22_Feb {
         System.out.println("\nSrting Reverse:  ");
         System.out.println(buf.reverse());
         
-        System.out.println("..........................................................................");
+        System.out.println("...................---------------------------------.");
         
         System.out.println("String Builder Class : ");
         StringBuilder sb = new StringBuilder("String Builder Class Example.");
