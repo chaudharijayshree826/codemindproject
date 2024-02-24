@@ -28,6 +28,8 @@ public class StringsInJava_19_Feb {
 		System.out.println("\nOriginal String Value : "+PanNo);
 		String Pan2 = PanNo.concat("XYZ");
 		System.out.println("\nConcatinated XYZ to String value : "+Pan2);	
+		System.out.println("PanNo  "+PanNo.hashCode());
+		System.out.println("\nPanNo2  "+Pan2.hashCode());
 	}	
 
 }

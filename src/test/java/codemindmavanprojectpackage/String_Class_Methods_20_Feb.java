@@ -21,7 +21,7 @@ public class String_Class_Methods_20_Feb {
 		if first string is less than, equal to or greater than second string.*/
 		System.out.println("\n3)CompareTo(string var) Method :-----");
 		System.out.println("Compare First Str to Second Str1 : "+str1.compareTo(str)); //o/p---(-4)     //this method and compareToIgnoreCase(str1) both are same .
-	
+	   
 		//CharAt(Index no.)
 		/* Returns the char value at the specified index. An index ranges from 0 to
 		  length() - 1.*/
@@ -84,9 +84,9 @@ public class String_Class_Methods_20_Feb {
 		System.out.println("\ntoLowerCase() Method:-----");
 		System.out.println(str.toLowerCase());
 		
-		// Converts this string to a new character array.
-		System.out.println("\ntoCharArray() Method:-----");
-		char[] array = str.toCharArray();
+		// Converts this string to a new character array.    String str = "Java String Methods";
+		System.out.println("\n....................................toCharArray() Method:-----");
+		char[] array = str.toCharArray(); // equals to split
 
 		for (char abc : array) {
 			System.out.println("\t"+abc);
