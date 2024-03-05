@@ -19,16 +19,16 @@ public class StringPrograms_21_Feb {
 		
 		//Word reverse
 		System.out.println("\n2) Word reverse");
-		String arr[]= str1.split(" "); //h e  l l o
+		String arr[]= str1.split(" "); //split work same ad toCharArray()
 		String str3 = " ";
 		for(String print :arr) {
 			for(int i=(print.length()-1) ;i>=0 ;i--) { //12 ,11 ,10
 				str3 = str3+print.charAt(i); //!
 			}
 			str3 = str3+" ";
+			
 		}
 		System.out.println("\n Word reverse: "+str3.trim());  //o/p-----olleH !dlroW
-		
 		
 		
 	    System.out.println(".............................................................................................");
@@ -90,6 +90,11 @@ public class StringPrograms_21_Feb {
 		
 		//The last char is present at the string length-2 index.
 		System.out.println("\n Characters at last index : " +a3.charAt(strLength-1));	
+	
+	//String Palindrom do this program 
+		
+	
 	}
+	
 
 }

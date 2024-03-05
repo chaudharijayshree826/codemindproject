@@ -52,6 +52,10 @@ public class MultiLevelInheritance_Bank_24_Feb {
 		k.BankName ="Kotak";
 		k.deposit();
 		k.loan();
+		
+		String str4="abc";
+		str4.concat("xyz");
+		System.out.println(str4);
 	}
 
 }
