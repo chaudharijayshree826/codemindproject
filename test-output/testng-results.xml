@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-16T23:37:00 IST" name="Default suite" finished-at="2024-04-16T23:37:24 IST" duration-ms="23338">
+    <groups>
+    </groups>
+    <test started-at="2024-04-16T23:37:00 IST" name="Default test" finished-at="2024-04-16T23:37:24 IST" duration-ms="23338">
+      <class name="SeleniumPackages.PrintTableData_12_15_April">
+        <test-method is-config="true" signature="setup()[pri:0, instance:SeleniumPackages.PrintTableData_12_15_April@7bd4937b]" started-at="2024-04-16T23:37:00 IST" name="setup" finished-at="2024-04-16T23:37:09 IST" duration-ms="8406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTitle()[pri:1, instance:SeleniumPackages.PrintTableData_12_15_April@7bd4937b]" started-at="2024-04-16T23:37:09 IST" name="verifyTitle" finished-at="2024-04-16T23:37:09 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SeleniumPackages.PrintTableData_12_15_April@7bd4937b]" started-at="2024-04-16T23:37:09 IST" name="teardown" finished-at="2024-04-16T23:37:09 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:SeleniumPackages.PrintTableData_12_15_April@7bd4937b]" started-at="2024-04-16T23:37:09 IST" name="setup" finished-at="2024-04-16T23:37:16 IST" duration-ms="7019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTableData()[pri:2, instance:SeleniumPackages.PrintTableData_12_15_April@7bd4937b]" started-at="2024-04-16T23:37:16 IST" name="verifyTableData" finished-at="2024-04-16T23:37:16 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTableData -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SeleniumPackages.PrintTableData_12_15_April@7bd4937b]" started-at="2024-04-16T23:37:16 IST" name="teardown" finished-at="2024-04-16T23:37:16 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:SeleniumPackages.PrintTableData_12_15_April@7bd4937b]" started-at="2024-04-16T23:37:16 IST" name="setup" finished-at="2024-04-16T23:37:23 IST" duration-ms="6774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyUrl()[pri:3, instance:SeleniumPackages.PrintTableData_12_15_April@7bd4937b]" started-at="2024-04-16T23:37:23 IST" name="verifyUrl" finished-at="2024-04-16T23:37:23 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrl -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SeleniumPackages.PrintTableData_12_15_April@7bd4937b]" started-at="2024-04-16T23:37:23 IST" name="teardown" finished-at="2024-04-16T23:37:24 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- SeleniumPackages.PrintTableData_12_15_April -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

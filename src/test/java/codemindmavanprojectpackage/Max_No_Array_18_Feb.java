@@ -6,6 +6,7 @@ public class Max_No_Array_18_Feb {
 		// TODO Auto-generated method stub
 		
 		int matrix [][] = {{10,20,30 },{50,60,70},{40,50,60}};
+		System.out.println("\n array class name  "+matrix.getClass());
 		System.out.println("Matrix of 3*3 :");
 		for(int p=0;p<matrix.length;p++)   //row
 		{ 
