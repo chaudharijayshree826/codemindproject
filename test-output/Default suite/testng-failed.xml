@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SeleniumPackages.PrintTableData_12_April">
+      <class name="SeleniumPackages.Group_In_TestNG_18_April">
         <methods>
           <include name="teardown"/>
+          <include name="verifyValidLogin"/>
           <include name="setup"/>
-          <include name="verifyTableData"/>
         </methods>
-      </class> <!-- SeleniumPackages.PrintTableData_12_April -->
+      </class> <!-- SeleniumPackages.Group_In_TestNG_18_April -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

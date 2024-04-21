@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
+	<groups>
+		<run>
+			<!--<include name="smoke"></include>-->
+			<exclude name="regression"></exclude>
+			<!--<exclude name="means only that grp is not  execution."></exclude>-->
+			<!--<include name="regression"></include>-->
+		</run>
+	</groups>
+	<listeners>
+		<listener class-name="utility.Listeners_Implementation_17_April"></listener>
+	</listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="SeleniumPackages.PrintTableData_12_April"/>
+		<class name="SeleniumPackages.Group_In_TestNG_18_April"/>
+       <!-- <class name="SeleniumPackages.Take_Screenshot_InSelenium_17_April"/>-->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
